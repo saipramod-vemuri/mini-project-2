@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tribute Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+        img {
+            width: 100%;
+            max-width: 500px;
+            height: auto;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        p {
+            font-size: 1.2em;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+        .quote {
+            font-style: italic;
+            color: #555;
+        }
+        .timeline {
+            text-align: left;
+            margin: 20px 0;
+        }
+        .timeline ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .timeline li {
+            background-color: #f9f9f9;
+            margin: 10px 0;
+            padding: 10px;
+            border-left: 5px solid #4CAF50;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Tribute to Albert Einstein</h1>
+
+    <img src="https://upload.wikimedia.org/wikipedia/commons/d/d3/Albert_Einstein_Head.jpg" alt="Albert Einstein">
+
+    <p>Albert Einstein was a theoretical physicist who developed the theory of relativity, one of the two pillars of modern physics. His work is also known for its influence on the philosophy of science. He is best known for his equation \(E=mc^2\), which has been dubbed "the world's most famous equation."</p>
+
+    <p class="quote">"Imagination is more important than knowledge. For knowledge is limited, whereas imagination embraces the entire world, stimulating progress, giving birth to evolution." – Albert Einstein</p>
+
+    <h2>Life Timeline</h2>
+    <div class="timeline">
+        <ul>
+            <li><strong>1879:</strong> Born in Ulm, Germany</li>
+            <li><strong>1905:</strong> Published the theory of special relativity</li>
+            <li><strong>1915:</strong> Completed the general theory of relativity</li>
+            <li><strong>1921:</strong> Won the Nobel Prize in Physics</li>
+            <li><strong>1933:</strong> Immigrated to the United States</li>
+            <li><strong>1955:</strong> Passed away in Princeton, New Jersey</li>
+        </ul>
+    </div>
+
+    <p>Albert Einstein's contributions to science have had a profound impact on the world, making him one of the most influential figures of the 20th century. His groundbreaking ideas continue to inspire scientists and thinkers today.</p>
+</div>
+
+</body>
+</html>
